@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+}
+#app {
+    background-color: aquamarine;
+    height: 800px;
+    position: relative;
+    bottom: 19px;
+    padding-top: 200px;
+}
+p {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 20px;
+}
+.words {
+    padding-left: 27%;
+    font-weight: bold;
+}
+.draggable {
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+    margin: 40px 10px 10px 10px;
+    border: 2px solid #a85a32;
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+.droppable {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    border: 2px dashed #000;
+    margin: 5px 5px 0 5px;
+}
+#submit {
+    display: inline-block;
+    position: relative;
+    font-weight: bold;
+    font-size: 19px;
+    left: 27%;
+    padding: 10px;
+    color: green;
+    margin: 20px 10px;
+    border: 2px solid #c41a33;
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+.filled {
+    background-color: #56d674;
+    color: darkgreen;
+    border: 2px dashed #2481a6;
+}
+.success {
+    font-size: 30px;
+    color: green;
+    font-weight: bold;
+}
+.error {
+    color: red;
+    font-weight: bold;
+}
